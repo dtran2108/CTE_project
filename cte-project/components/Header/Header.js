@@ -33,10 +33,10 @@ const Header = () => (
       <div className="text-style">Liên hệ</div>
     </div>
     <div style={ItemGroup}>
-      <div style={{marginRight: '4vw', width: '1.5vw', height: '2.3vw'}}>
+      <div style={{marginRight: '5vw', width: '1vw', height: '2vw'}}>
         <img src={require('./static/facebook.png')} width="100%" height="100%"/>
       </div>
-      <div style={{width: '2.7vw', height: '2.3vw'}}>
+      <div style={{width: '2vw', height: '1.7vw'}}>
         <img src={require('./static/twitter.png')} width="100%" height="100%"/>
       </div>
     </div>
@@ -46,7 +46,7 @@ const Header = () => (
         font-family: Roboto, sans-serif;
         font-size: 1vw;
         color: #FFFFFF;
-        margin-left: 1.6vw;
+        margin-left: 0.7vw;
         height: inherit;
         display: flex;
         align-items: center;
