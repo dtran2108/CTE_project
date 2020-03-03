@@ -8,7 +8,6 @@ const Home = () => (
   <div className="container">
     <Head>
       <title>CTE</title>
-      {/* <link rel="icon" href="/favicon.ico" /> */}
     </Head>
 
     <main>
@@ -31,7 +30,7 @@ const Home = () => (
             giúp các bạn có cơ hội tiếp xúc, giao lưu, vui chơi, học tập với người 
             nước ngoài.
           </p>
-          <Button />
+          <Button name="Tìm hiểu thêm"/>
         </div>
       </div>
     </main>

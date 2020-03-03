@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
-const Button = () => (
+const Button = ({name}) => (
   <div>
-    <Link href="google.com">
+    <Link href="/">
       <div className="button">
-        <span className="text">Tìm hiểu thêm</span>
+        <span className="text">{name}</span>
       </div>
     </Link>
 
