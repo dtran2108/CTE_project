@@ -10,7 +10,7 @@ const Button = ({name}) => (
 
     <style jsx>{`
       .button {
-        width: 15vw;
+        width: 20vw;
         height: 3vw;
         display: flex;
         justify-content: center;
