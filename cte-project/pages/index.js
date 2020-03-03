@@ -41,17 +41,18 @@ const Home = () => (
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        height: 25vw;
+        height: 27vw;
         background-color: #F9F9F9;
         box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
       }
 
       .block3_item2 {
-        width: 40%;
+        width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        padding: 0 2vw 0 5vw;
       }
 
       .block3_item2_header {
@@ -67,8 +68,9 @@ const Home = () => (
         font-family: Roboto, sans-serif;
         font-size: 1vw;
         color: #8C8989;
-        line-height: 1.5vw;
+        line-height: 1.3vw;
         text-align: justify;
+        margin-bottom: 2vw;
       }
     `}</style>
 
