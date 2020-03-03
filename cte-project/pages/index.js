@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import Header from '../components/Header/Header';
+import Button from '../components/Button/Button';
+
 import pic1_block3 from '../public/static/pic1_block3.png';
 
 const Home = () => (
@@ -29,6 +31,7 @@ const Home = () => (
             giúp các bạn có cơ hội tiếp xúc, giao lưu, vui chơi, học tập với người 
             nước ngoài.
           </p>
+          <Button />
         </div>
       </div>
     </main>
