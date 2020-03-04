@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Header from '../components/Header/Header';
 import About from '../components/About/About';
 import Course from '../components/FeaturedCourse/Course';
+import OurAdvantages from '../components/OurAdvantages/OurAdvantages';
 
 const Home = () => (
   <div className="container">
@@ -13,6 +14,7 @@ const Home = () => (
       <Header />
       <About />
       <Course />
+      <OurAdvantages />
     </main>
 
     <style jsx>{`
