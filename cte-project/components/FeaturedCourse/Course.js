@@ -1,16 +1,18 @@
 import Button from '../Button/Button';
+import Divider from '../Divider/Divider';
 import FlexItem from './FlexItem';
 
 import pic1 from './static/pic1.png';
 
 const Course = () => (
   <div>
-    <div className="flex" style={{height: '40vw', margin: '2vw 1vw 2vw 1vw'}}>
+    <div className="flex" style={{height: '45vw', margin: '2vw 1vw 2vw 1vw'}}>
       <h1 style={{ marginBlockEnd: '0' }}>KHÓA HỌC NỔI BẬT</h1>
-      <p style={{ marginBottom: '3vw' }}>
+      <p style={{ marginBottom: '1.5vw' }}>
         Tiếng Anh Giao Tiếp, tập trung đào tạo phát âm, từ vựng, ngữ âm, phản 
         xạ giao tiếp
       </p>
+      <Divider />
       <div className="grid">
         <FlexItem 
           className="flex" image={pic1}
@@ -41,7 +43,7 @@ const Course = () => (
           nhu cầu và đặc thù của từng Doanh Nghiệp."
         />
       </div>
-      <div style={{marginTop: '2vw'}}>
+      <div style={{margin: '3vw 0 3vw 0'}}>
         <Button name="Đăng ký Test MIỄN PHÍ" />
       </div>
     </div>
