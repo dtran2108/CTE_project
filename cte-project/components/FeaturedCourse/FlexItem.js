@@ -1,6 +1,6 @@
 const FlexItem = ({image, title, content}) => (
   <div style={{ padding: '0 3vw 0 3vw' }}>
-    <div>
+    <div className="wrapper">
       <div className="img-wrapper">
         <img src={image} width="100%" height="100%" />
       </div>
@@ -9,6 +9,13 @@ const FlexItem = ({image, title, content}) => (
     </div>
 
     <style jsx>{`
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
       .img-wrapper {
         width: 15vw;
         height: auto;
