@@ -3,6 +3,7 @@ import Header from '../components/Header/Header';
 import About from '../components/About/About';
 import Course from '../components/FeaturedCourse/Course';
 import OurAdvantages from '../components/OurAdvantages/OurAdvantages';
+import Reward from '../components/Reward/Reward';
 
 const Home = () => (
   <div className="container">
@@ -15,6 +16,7 @@ const Home = () => (
       <About />
       <Course />
       <OurAdvantages />
+      <Reward />
     </main>
 
     <style jsx>{`

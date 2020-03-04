@@ -48,9 +48,9 @@ const About = () => (
         text-align: center;
         font-family: Roboto, sans-serif;
         color: #F79E32;
-        font-size: 2vw;
+        font-size: 2.5vw;
         font-style: normal;
-        font-weight: 100;
+        font-weight: 300;
       }
 
       .block3_item2_paragraph {

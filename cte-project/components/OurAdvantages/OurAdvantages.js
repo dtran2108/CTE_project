@@ -72,7 +72,7 @@ const OurAdvantages = () => (
       h1 {
         font-family: Roboto, sans-serif;
         color: #F79E32;
-        font-weight: 400;
+        font-weight: 300;
         font-size: 2.5vw;
       }
 
