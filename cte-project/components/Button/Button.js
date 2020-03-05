@@ -17,7 +17,7 @@ const Button = ({name}) => (
         align-items: center;
         background-color: #F79E32;
         cursor: pointer;
-        border-radius: 5px;
+        border-radius: 0.3vw;
       }
 
       .text {
