@@ -15,12 +15,13 @@ const ItemGroup = {
   display: 'flex',
   alignItems: 'center',
   alignItems: 'center',
+  height: 'inherit',
 }
 
 const Header = () => (
   <div style={HeaderStyle}>
     <div style={ItemGroup}>
-      <div style={{width: '12vw', height: '5vw'}}>
+      <div style={{width: '10vw', height: 'auto'}}>
         <img src={require('./static/logo-cte.png')} width="100%" height="100%"/>
       </div>
       <div className="text-style">Về CoffeeTalkEnglish</div>
@@ -52,6 +53,7 @@ const Header = () => (
         cursor: pointer;
         padding: 0px 10px 0px 10px;
         text-align: center;
+        height: 100%;
       }
 
       .text-style:hover {
