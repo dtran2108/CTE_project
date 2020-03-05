@@ -15,7 +15,6 @@ const ItemGroup = {
   display: 'flex',
   alignItems: 'center',
   alignItems: 'center',
-  height: 'inherit',
 }
 
 const Header = () => (
@@ -33,10 +32,10 @@ const Header = () => (
       <div className="text-style">Liên hệ</div>
     </div>
     <div style={ItemGroup}>
-      <div style={{marginRight: '5vw', width: '1vw', height: '2vw'}}>
+      <div style={{marginRight: '5vw', width: '1vw', height: 'auto'}}>
         <img src={require('./static/facebook.png')} width="100%" height="100%"/>
       </div>
-      <div style={{width: '2vw', height: '1.7vw'}}>
+      <div style={{width: '2vw', height: 'auto'}}>
         <img src={require('./static/twitter.png')} width="100%" height="100%"/>
       </div>
     </div>
@@ -52,11 +51,18 @@ const Header = () => (
         align-items: center;
         cursor: pointer;
         padding: 0px 10px 0px 10px;
+        text-align: center;
       }
 
       .text-style:hover {
         background-color: rgba(229, 229, 229, 0.5);    
       }
+
+      @media (max-width: 514px) {
+        .text-style {
+            font-size: 0.7vw;
+            margin-left: 0.3vw;
+        }
     `}</style>
   </div>
 );
