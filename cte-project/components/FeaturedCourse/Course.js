@@ -6,7 +6,7 @@ import pic1 from './static/pic1.png';
 
 const Course = () => (
   <div>
-    <div className="flex" style={{height: '45vw', margin: '2vw 1vw 2vw 1vw'}}>
+    <div className="flex" style={{height: '50vw', margin: '2vw 1vw 2vw 1vw'}}>
       <h1 style={{ marginBlockEnd: '0' }}>KHÓA HỌC NỔI BẬT</h1>
       <p style={{ marginBottom: '1.5vw' }}>
         Tiếng Anh Giao Tiếp, tập trung đào tạo phát âm, từ vựng, ngữ âm, phản 

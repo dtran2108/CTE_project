@@ -27,7 +27,7 @@ const Reward = () => (
         padding: 2vw 3vw 2vw 3vw;
         background-color: #F9F9F9;
         box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
-        height: 30vw;
+        height: 35vw;
       }
       
       h1 {
